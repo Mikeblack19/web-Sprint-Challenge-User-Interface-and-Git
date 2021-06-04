@@ -33,15 +33,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is structured HTML. We use we semantic best practices to not only create sites that are better written for SEO like snippets, accessibility like screen readers but also for the development process and how we think as coders. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+display block means an element will push elements to the next space on the main axis and it can take a width and height. display inline allows other elements, space permiting, to fall onto the cross axis but does not take a width of height. 
 3. What are the 4 areas of the box model?
-
+content edge, padding edge, margin edge, border edge. 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+cross axis 
 5. Explain why git is valuable to a team of developers.
-
+its a way of storing locally and non files and a way to keep track of changes made. it allows developers managers to put in input of oversight. 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up

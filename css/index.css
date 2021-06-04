@@ -77,7 +77,9 @@ p {
     margin: 0 auto;
 }
 /*header*/
-
+header {
+    margin-top: 1%;
+}
 nav, nav img, nav a {
     display: flex;
     justify-content: space-evenly;
@@ -112,6 +114,11 @@ nav a {
     padding-bottom: 20px;  
 }
 
+.about {
+    border-bottom: 2px dotted grey; 
+    margin: 2%; 
+    padding: 2% 2%; 
+}
 
 /*middle content*/ 
 
@@ -182,9 +189,33 @@ background-color: teal;
 
 .dual-block {
     display: flex; 
+    padding: 2%;
 }
 
-#mid-section 
+.dual-block button {
+    margin: 6% 0; 
+    font-size: 1.1rem; 
+    background-color: white;
+    padding: 2% 4%; 
+    border-radius: 11px; 
+}
+
+.dual-block h3 {
+    margin: 4% 0; 
+}
+.dual-block section {
+    border-bottom: 2px dotted lightgrey; 
+    
+    
+}
+
+.dual-block section{
+    margin: 2%;
+}
+
+
+
+
 /*bottom content*/ 
 
 .bottom-content {
@@ -201,6 +232,10 @@ background-color: teal;
     padding-right: 0;
 }
 
+.letswork{ 
+    padding: 2%; 
+    margin: 2%; 
+}
 footer {
     width: 100%;
     background: black;
