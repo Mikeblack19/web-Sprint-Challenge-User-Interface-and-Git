@@ -114,6 +114,7 @@ nav a {
 
 
 /*middle content*/ 
+
 .box:nth-child(1) {
 background-color: teal;
 }
@@ -179,6 +180,11 @@ background-color: teal;
     justify-content: center;
 }
 
+.dual-block {
+    display: flex; 
+}
+
+#mid-section 
 /*bottom content*/ 
 
 .bottom-content {
