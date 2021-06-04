@@ -46,15 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*general*/
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
+    
 }
+
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -69,6 +75,27 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+/*header*/
+
+nav, nav img, nav a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    text-decoration: none;
+    padding-bottom: 2%; 
+    
+}
+
+nav a {
+    color: black; 
+    padding-top: 3%; 
+}
+
+/*top content*/ 
+
+#jumbo-img {
+    margin-bottom: 1%; 
 }
 
 .top-content {
@@ -144,3 +171,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
